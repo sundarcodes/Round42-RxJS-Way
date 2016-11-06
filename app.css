@@ -1,0 +1,50 @@
+#playArena{
+  height:95vh;
+  width:80vw;
+  margin: 0 auto 0 auto;
+  background-color: #3498db;
+  position: relative;
+}
+
+#sky{
+  height:20vh;
+}
+#air{
+  height:60vh;
+}
+#ground{
+  height:15vh;
+  background-image: url('./images/terrain.jpg');
+  background-size: cover;
+  /*position:relative;*/
+}
+.bullet{
+  height:5vh;
+  width:5vh;
+  bottom:0vh;
+  position:absolute;
+  background-image: url('./images/bomb.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.enemy{
+  height: 15vh;
+  width: 15vh;
+  position:absolute;
+  background-image: url('./images/helicopter.gif');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#tanker{
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+  top: 73vh;
+  left: 0;
+  bottom:0;
+  background-image: url('./images/tanker.png');
+  background-size: contain;
+  transition: left 0.25s ease-in;
+}
